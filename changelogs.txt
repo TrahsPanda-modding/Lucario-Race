@@ -3,3 +3,5 @@
 -Added Riolu pawnkinds
 -Added FemaleBB support
 -Minor adjustments to description/backstory texts
+
+-Updated About.xml
