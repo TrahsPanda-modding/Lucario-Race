@@ -1,0 +1,5 @@
+-Overhauled the graphics, adding body addons
+-Added and adjusted body parts
+-Added Riolu pawnkinds
+-Added FemaleBB support
+-Minor adjustments to description/backstory texts

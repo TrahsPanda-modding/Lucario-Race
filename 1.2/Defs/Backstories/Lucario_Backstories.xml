@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_MilitantLucario</defName>
+    <title>Militant lucario</title>
+    <titleShort>Soldier</titleShort>
+    <baseDescription>[PAWN_nameDef] has always had an interest in firearms and helping others, so they joined the UNSC to earn the glory they've yearned.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_Brawler</defName>
+    <title>Brawler</title>
+    <titleShort>Brawler</titleShort>
+    <baseDescription>[PAWN_nameDef] loves the heat of a good fight, and believes they're one of the best fighters in the galaxy.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>Brawler</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_ConstructionWorker</defName>
+    <title>Construction worker</title>
+    <titleShort>Builder</titleShort>
+    <baseDescription>[PAWN_nameDef] had became a construction worker on Industrial planets. While on site, [PAWN_nameDef] had befriended multiple lizards.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_LucarioArtsian</defName>
+    <title>Lucario artsian</title>
+    <titleShort>Artsian</titleShort>
+    <baseDescription>[PAWN_nameDef]'s talent in portraying the mind of a psychic Pokemon captured the attention of billions across the galaxy. However the life of relative ease made it difficult to learn anything.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>SlowLearner</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_LucarioDoctor</defName>
+    <title>Lucario doctor</title>
+    <titleShort>Doctor</titleShort>
+    <baseDescription>[PAWN_nameDef] has always dreamed of being a doctor or even a nurse. After getting a job at a Pokemon center, their skills were recognized as human-quality and became a part of the growing number of Pokemon medical professionals.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Medicine</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_HydroponicsExpert</defName>
+    <title>Hydroponics expert</title>
+    <titleShort>Hydroponics expert</titleShort>
+    <baseDescription>[PAWN_nameDef] holds a very unique relationship with all types of flora, and can tend to almost any plant-based being with extreme quality and care.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Plants</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_UndergroundWorker</defName>
+    <title>Underground worker</title>
+    <titleShort>Undergrounder</titleShort>
+    <baseDescription>Mining type plates and gems in the Underground, [PAWN_nameDef] spent their entire adult life in the Underground, working with dirt and stone. When bored, [PAWN_nameDef] would create surprisingly striking works of art out of the Underground walls.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Mining</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>Undergrounder</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_LucarioChef</defName>
+    <title>Lucario chef</title>
+    <titleShort>Chef</titleShort>
+    <baseDescription>Having a natural talent in cooking, [PAWN_nameDef] immediately used it to their benefit and started cooking at a 4 star restaurant aboard a civilian luxury ship that circled around Intna's northern pole.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_AnimalCaretaker</defName>
+    <title>Animal caretaker</title>
+    <titleShort>Caretaker</titleShort>
+    <baseDescription>Living with a friendly and caring human, [PAWN_nameDef] grew an interest in taking care of animals. Starting a caretaker business inside the other half of the human's mansion, [PAWN_nameDef] earned a lot of money and skill from their job.</baseDescription>
+    <slot>Adulthood</slot>
+    <bodyTypeGlobal>Female</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Lucario</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Animals</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>-4</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>-5</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+</Defs>

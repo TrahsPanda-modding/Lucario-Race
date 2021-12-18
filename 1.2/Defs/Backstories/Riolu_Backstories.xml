@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_ForgottenRiolu</defName>
+    <title>Forgotten riolu</title>
+    <titleShort>Forgotten</titleShort>
+    <baseDescription>[PAWN_nameDef] was born, raised, and forgotten at a breeding center. Never knowing their trainer and being raised in sterility, [PAWN_nameDef] had become a helper at the center and is thus very kind towards others.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-2</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>Kind</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_TrainedRiolu</defName>
+    <title>Trained riolu</title>
+    <titleShort>Trained</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in an early trainer's backpack. Upon hatching, [PAWN_nameDef] was the main choice for the trainer and was given a lot of training in fighting.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Melee</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_YoungBuilder</defName>
+    <title>Young builder</title>
+    <titleShort>Builder</titleShort>
+    <baseDescription>[PAWN_nameDef] was born and raised at a construction site, becoming a very good construction working at such a young age, this would carry on to their adulthood.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Construction</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>-1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>-2</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_WildRiolu</defName>
+    <title>Wild riolu</title>
+    <titleShort>Wild</titleShort>
+    <baseDescription>[PAWN_nameDef] was born in the wild to wild Lucarios. Finding a passion for cooking, [PAWN_nameDef] became very good at cooking and finding things to cook with.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Cooking</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_SemiWildRiolu</defName>
+    <title>Semi-wild riolu</title>
+    <titleShort>Semi-wild</titleShort>
+    <baseDescription>While not being born in true wilderness, [PAWN_nameDef] was still born to a pair of Lucarios who spent a lot of their time helping out an old lady in the woods, who in turn gave them a place to stay. Before the old lady's death, [PAWN_nameDef] had become incredibly good at helping others.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Social</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_AbusedRiolu</defName>
+    <title>Abused riolu</title>
+    <titleShort>Abused</titleShort>
+    <baseDescription>Born as a "perfect breed" to a corrupt rich family on a Glitterworld, [PAWN_nameDef] was treated like a dog and was often abused. When [PAWN_nameDef] saw how people were meant to be treated, [PAWN_nameDef] escaped as soon as they possibly could.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>Neurotic</defName>
+            <degree>1</degree>
+        </li>
+        <li>
+            <defName>Nerves</defName>
+            <degree>-1</degree>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_LonelyRiolu</defName>
+    <title>Lonely riolu</title>
+    <titleShort>Lonely</titleShort>
+    <baseDescription>Not really having the desire to do anything, [PAWN_nameDef] just wandered and lived off of others. Not in a harmful way, just in a lonely one.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>1</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_ArtisticRiolu</defName>
+    <title>Artistic riolu</title>
+    <titleShort>Artist</titleShort>
+    <baseDescription>Once [PAWN_nameDef] saw an incredibly built marble statue in a Glitterworld plaza. Such inspiration really stuck with [PAWN_nameDef], and [PAWN_nameDef] thus started working with various stones, drawing, and anything to do to push out beautiful works of art.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Artistic</defName>
+        <amount>6</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>5</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>4</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>3</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>2</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>-3</amount>
+      </li>
+      <li>
+        <defName>Shooting</defName>
+        <amount>-4</amount>
+      </li>
+    </skillGains>
+</AlienRace.BackstoryDef>
+
+<AlienRace.BackstoryDef>
+    <defName>TRAHS_SmartRiolu</defName>
+    <title>Smart riolu</title>
+    <titleShort>Smart</titleShort>
+    <baseDescription>At a young age, [PAWN_nameDef] has been infatuated with gaining knowledge, on anything.</baseDescription>
+    <slot>Childhood</slot>
+    <bodyTypeGlobal>Thin</bodyTypeGlobal>
+    <spawnCategories>
+      <li>Riolu</li>
+    </spawnCategories>
+    <skillGains>
+      <li>
+        <defName>Shooting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Melee</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Construction</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Mining</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Cooking</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Plants</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Animals</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Crafting</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Artistic</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Medicine</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Social</defName>
+        <amount>1</amount>
+      </li>
+      <li>
+        <defName>Intellectual</defName>
+        <amount>6</amount>
+      </li>
+    </skillGains>
+    <forcedTraits>
+        <li>
+            <defName>FastLearner</defName>
+        </li>
+    </forcedTraits>
+</AlienRace.BackstoryDef>
+
+</Defs>

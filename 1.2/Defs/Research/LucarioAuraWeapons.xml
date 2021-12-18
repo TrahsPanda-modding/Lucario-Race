@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>LucarioAuraWeapons</defName>
+    <tab>TrahsResearch</tab>
+    <label>aura weapons</label>
+    <description>Build long-range weapons specifically for Lucario. Note that only Lucarios can wield these and only a Lucario can research this.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Spacer</techLevel>
+    <prerequisites>
+      <li>Fabrication</li>
+    </prerequisites>
+    <hiddenPrerequisites>
+      <li>PrecisionRifling</li>
+    </hiddenPrerequisites>
+    <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+    <requiredResearchFacilities>
+      <li>MultiAnalyzer</li>
+    </requiredResearchFacilities>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+
+</Defs>

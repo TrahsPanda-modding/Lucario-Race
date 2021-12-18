@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonLucario</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[LucarioFirst] [LucarioLast]</li>
+        <li>name->[LucarioFirst] '[Nickname]' [LucarioLast]</li>
+      </rulesStrings>
+	<rulesRaw>
+		<li Class="Rule_File">
+      <keyword>LucarioFirst</keyword>
+      <path>Lucario/LucarioNames/LucarioFirst</path>
+    </li>
+		<li Class="Rule_File">
+      <keyword>LucarioLast</keyword>
+      <path>Lucario/LucarioNames/LucarioLast</path>
+    </li>
+		<li Class="Rule_File">
+      <keyword>Nickname</keyword>
+      <path>Nicknames/LucarioNickname</path>
+    </li>
+  </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

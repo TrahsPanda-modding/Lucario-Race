@@ -1,0 +1,3 @@
+Redo Lucario textures
+Add fur colors
+Add Combat Extended support
