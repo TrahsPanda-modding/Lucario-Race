@@ -62,7 +62,7 @@
         <!-- Normal fights, standard mix -->
         <kindDef>Combat</kindDef>
         <options>
-          <Lucario_Villager>2.5</Lucario_Villager>
+          <Lucario_Villager>2</Lucario_Villager>
           <Mega_Lucario_Villager>2.5</Mega_Lucario_Villager>
           <Lucario_Town_Guard>5</Lucario_Town_Guard>
           <Mega_Lucario_Town_Guard>5</Mega_Lucario_Town_Guard>
@@ -92,8 +92,8 @@
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <Lucario_Town_Trader>0.5</Lucario_Town_Trader>
-          <Mega_Lucario_Town_Trader>0.5</Mega_Lucario_Town_Trader>
+          <Lucario_Town_Trader>1</Lucario_Town_Trader>
+          <Mega_Lucario_Town_Trader>1</Mega_Lucario_Town_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
@@ -102,8 +102,8 @@
           <Elephant>1</Elephant>
         </carriers>
         <guards>
-          <Lucario_Villager>1.5</Lucario_Villager>
-          <Mega_Lucario_Villager>1.5</Mega_Lucario_Villager>
+          <Lucario_Villager>1</Lucario_Villager>
+          <Mega_Lucario_Villager>1</Mega_Lucario_Villager>
           <Lucario_Town_Guard>5</Lucario_Town_Guard>
           <Lucario_Town_Shooter>5</Lucario_Town_Shooter>
           <Mega_Lucario_Shooter>5</Mega_Lucario_Shooter>
