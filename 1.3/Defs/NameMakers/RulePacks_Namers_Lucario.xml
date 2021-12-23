@@ -6,7 +6,6 @@
     <rulePack>
       <rulesStrings>
         <li>name->[LucarioFirst] [LucarioLast]</li>
-        <li>name->[LucarioFirst] '[Nickname]' [LucarioLast]</li>
       </rulesStrings>
 	<rulesRaw>
 		<li Class="Rule_File">
@@ -16,10 +15,6 @@
 		<li Class="Rule_File">
       <keyword>LucarioLast</keyword>
       <path>Lucario/LucarioNames/LucarioLast</path>
-    </li>
-		<li Class="Rule_File">
-      <keyword>Nickname</keyword>
-      <path>Nicknames/LucarioNickname</path>
     </li>
   </rulesRaw>
     </rulePack>
